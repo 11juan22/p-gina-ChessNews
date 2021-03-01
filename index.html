@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChessNews</title>
-
+    <link rel="icon" type="png" href="img/logo.png" />
 
     <link rel="stylesheet" href="styles.css">
 
@@ -28,44 +28,59 @@
             <img src="img/logo.png" alt="Logo" class="nav-brand">
             <ul class="nav-menu">
                 <li>
-                    <a href="#">web Developer</a>
+                    <a href="#">INICIO</a>
                 </li>
                 <li>
-                    <a href="#">Blochain</a>
+                    <a href="#">ACERCA DE</a>
                 </li>
                 <li>
-                    <a href="#">Artificial Inteligence</a>
+                    <a href="#">QUIEN SOY</a>
                 </li>
                 <li>
-                    <a href="#">Machine Learning</a>
+                    <a href="#">PORTAFOLIO</a>
                 </li>
                 <li>
-                    <a href="#">Quantum computing</a>
+                    <a href="#">SERVICIOS</a>
                 </li>
                 <li>
-                    <a href="#">Startup</a>
+                    <a href="#">CONTACTO</a>
                 </li>
                 <li>
-                    <a href="#">More</a>
+                    <a href="#">MÁS</a>
                 </li>
             </ul>
             <ul class="nav-menu-right">
                 <li> <!--Esto es para hacer una lupa-->
                     <a href="#">
-                        <i class="fas fa-search"></i>
+                        <i class="fas fa-search" id="icon-search"></i>
                     </a>
                 </li>
             </ul>
         </nav>
        <hr>
+       <!--zona del textbox-->
+       <div id="ctn-bars-search">
+            <input type="text" id="inputSearch" placeholder="Que deseas buscar ?">
+       </div>
+
+       <ul id="box-search">
+            <li><a href="https://www.ichess.es/blog/historia-titulos-femeninos-ajedrez/"><i class="fas fa-search"></i> Mujeres en el Ajedrez</a></li>
+            <li><a href="#"><i class="fas fa-search"></i> Historia del Ajedrez</a></li>
+            <li><a href="#"><i class="fas fa-search"></i> Enfrentamientos Actuales</a></li>
+            <li><a href="#"><i class="fas fa-search"></i> El mejor jugador del momento</a></li>
+            <li><a href="#"><i class="fas fa-search"></i> Ajedrez en la vejez</a></li>
+
+       </ul>
+
+       <div id="cover-ctn-search"></div>
 
         <!--SHOWCASE-->
         <header class="showcase">
-            <h2 class="titulo2">Big News Today</h2>
+            <h2 class="titulo2">El rey del Ajedrez</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo tempore at, laboriosam excepturi recusandae impedit quisquam rerum eveniet, error ad suscipit voluptate ut ipsam quia laudantium vitae id exercitationem!
+                El Gran Maestro internacional de ajedrez Magnus Carlsen joven noruego que sostiene su titulo de campeón del mundo desde el 2013 hasta la actulidad, desmostrado asi su gran agilidad mental para este juego y dejando una significante marca en la historia del ajedrez  
             </p>
-            <a href="#" class="btn">Read More <i CLass="fas fa-angle-double-right"></i></a>
+            <a href="https://www.teletica.com/otros-deportes/magnus-carlsen-campeon-mundial-de-ajedrez-quien-es-el-noruego-que-puso-de-moda-este-deporte_211040" class="btn">Leer más<i CLass="fas fa-angle-double-right"></i></a>
         </header>
 
         <!--NEW CARS  -->
@@ -78,21 +93,21 @@
             </div>
             <div>
                 <img src="img/a2.jpg" alt="No carga">
-                <h3>Mujeres en el Ajedrez</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis veritatis ducimus aspernatur totam perferendis eveniet nemo quaerat commodi quos!</p>
-                <a href="#">Ver más <i class="fas fa-angle-doblue-right"></i></a>
+                <h3>Historia del Ajedrez</h3>
+                <p>No cabe duda que la historia del ajedrez esta llena de riquesas, con la gran variedad de formas de juegar que esta posee, este se a convertido en un juego sumamente extraordinario y completo</p>
+                <a href="https://historia.nationalgeographic.com.es/a/historia-ajedrez-juego-milenario_15981">Ver más <i class="fas fa-angle-doblue-right"></i></a>
             </div>
             <div>
                 <img src="img/a3.jpg" alt="No carga">
-                <h3>Mujeres en el Ajedrez</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis veritatis ducimus aspernatur totam perferendis eveniet nemo quaerat commodi quos!</p>
-                <a href="#">Ver más <i class="fas fa-angle-doblue-right"></i></a>
+                <h3>Ultimos encuentros</h3>
+                <p>Se viene muchos enfrentamiento para este 2021, ya que el calendario del 2020 fue destruido por la pademia del caronavirus</p>
+                <a href="https://chess24.com/es/informate/noticias/calendario-ajedrez-2021">Ver más <i class="fas fa-angle-doblue-right"></i></a>
             </div>
             <div>
                 <img src="img/a4.jpg" alt="No carga">
-                <h3>Mujeres en el Ajedrez</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis veritatis ducimus aspernatur totam perferendis eveniet nemo quaerat commodi quos!</p>
-                <a href="#">Ver más <i class="fas fa-angle-doblue-right"></i></a>
+                <h3>Ajedrez trecera edad</h3>
+                <p>El ajedrez es un juego que estimula el cerebro y es ideal para prevenir la degradación cerebral. Por lo tanto, es una actividad muy recomendable para las personas mayores. Además de los beneficios físicos que produce en el cerebro, también brinda ayuda psicológica. Mejora el aprovisionamiento lógico y ralentizar la pérdida de memoria.</p>
+                <a href="https://adultosmayoresmexico.com/3-beneficos-de-jugar-ajedrez-en-la-tercera-edad/">Ver más <i class="fas fa-angle-doblue-right"></i></a>
             </div>
         </div>
 
@@ -100,7 +115,7 @@
         <section class="cars-banner-one">
             <div class="content">
                 <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam doloribus autem blanditiis corrupti aliquid ex ipsam aliquam voluptatum omnis!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni provident sequi possimus voluptatibus doloribus, iste suscipit saepe voluptates omnis perspiciatis dolor in a soluta expedita facere animi. Adipisci, qui illo!</p>
                 <a href="#" class="btn">Ver Más<i CLass="fas fa-angle-double-right"></i></a>
             </div>
         </section>
@@ -145,9 +160,12 @@
         <section class="social">
             <p>FOllOW ME</p>
             <div class="links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/juancarlos.retana.790"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/juancarlos.retana.790"><i class="fab fa-instagram"></i></a>
+              
+            </div>
+            <div>
+                <a href="https://mail.google.com/">Correo : juancarlosretanaarce@gmail.com</a>
             </div>
         </section>
     </div>
@@ -259,7 +277,7 @@
     </div>
 
     <footer class="footer">
-        <h3>ChessNews Copyright</h3>
+        <h3>ChessNews Copyright © </h3>
     </footer>
 
     <!--Scroll revEAL-->
